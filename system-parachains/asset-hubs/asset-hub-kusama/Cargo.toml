@@ -36,7 +36,7 @@ pallet-assets = { default-features = false, version = "26.0.0" }
 pallet-asset-conversion = { default-features = false, version = "7.0.0" }
 pallet-aura = { default-features = false, version = "24.0.0" }
 pallet-authorship = { default-features = false, version = "25.0.0" }
-pallet-balances = { default-features = false, version = "25.0.0" }
+pallet-balances = { git = "https://github.com/paritytech/polkadot-sdk", default-features = false, branch = "release-polkadot-v1.1.0" }
 pallet-multisig = { default-features = false, version = "25.0.0" }
 pallet-nft-fractionalization = { default-features = false, version = "7.0.0" }
 pallet-nfts = { default-features = false, version = "19.0.0" }
